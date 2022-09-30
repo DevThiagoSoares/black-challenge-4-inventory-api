@@ -1,6 +1,6 @@
 ![imghorizontallogoobc](https://user-images.githubusercontent.com/29529757/176974783-c26e18fc-4712-415c-a281-2fc90169817f.png)
 
-# API CRUD para controle de estoque
+# API CRUD para controle de estoque REFATORADA
 
 ## 📖 Descrição
 
@@ -27,7 +27,7 @@ A ideia é fazermos aqui a reestruturação dela, para usarmos conceitos do Clea
 
 ## ⏳ Inicialização
 
-- Esse projeto foi desenvolvido em ambiente Linux, utilizando o Ubuntu 22 e as tecnologias citadas anteriormente. Caso você utilize outro sistema operacional, a configuração inicial do projeto pode ser um pouco diferente, por isso sugerimos que você acesse os links indicados abaixo:
+- Esse projeto foi refatorado em ambiente Windows, utilizando o windows 11 e as tecnologias citadas anteriormente. Caso você utilize outro sistema operacional, a configuração inicial do projeto pode ser um pouco diferente, por isso sugerimos que você acesse os links indicados abaixo:
 
 - A preparação do ambiente consiste em instalar as tecnologias citadas anteriormente de acordo com seu sistema operacional.
 
@@ -41,11 +41,8 @@ A ideia é fazermos aqui a reestruturação dela, para usarmos conceitos do Clea
 
 <pre>npm install</pre>
 
-- Agora, você deve configurar o seu banco de dados, ao entrar na pasta "config.json", você vai modificar de acordo com o que você está criando e usando, modifique de acordo com os seguinte campos:
+- Agora, você deve configurar o seu banco de dados, crie um aquivo ".env" e cole o que está no ".exemple.env" preenchendo os campos de acordo com sua URL do banco e porta que deseja usar na API:
 
-<pre>postgres://usuario:senha@localhost:5432/nome-do-banco</pre>
-
-- A mesma coisa deve ser feita para o "index.js", modificando também a sua URL
 
 <br/>
 
